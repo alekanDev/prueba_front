@@ -1,0 +1,90 @@
+.dashboard_container{
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: #57429D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .lateral_menu{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+    .option_container{
+      width: 80%;
+      height: 50px;
+      border-radius: 10px;
+      display: flex;
+      align-items:  center;
+      /* background-color: white; */
+      box-sizing: border-box;
+      padding: 0 10px;
+      gap: 10px;
+      color: white;
+      /* color: rgb(208, 153, 51); */
+    }
+      .option_container:hover{
+        background-color: rgb(208, 153, 51);
+        cursor: pointer;
+      }
+  .main_container{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+    .main_content{
+      width: 97%;
+      height: 96%;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+      border-radius: 25px;
+    }
+      .top_banner{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+        .title_page{
+          width: 70%;
+          height: 100%;
+          display: flex;
+          justify-content: start;
+          align-items: center;
+          box-sizing: border-box;
+          padding: 0 20px;
+          font-weight: bold;
+          color: rgb(208, 153, 51);
+        }
+        .infoUser{
+          width: 30%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+        }
+          .profile_picture{
+            width: 40px;
+            height: 40px;
+            border-radius: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+          }
+
+.hidden{
+  display: none;
+}
